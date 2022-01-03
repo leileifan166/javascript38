@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport">
+    <title>Document</title>
+    <script src="myjs.js"></script>
+</head>
+<body>
+    <script>
+        var num = 10;
+        var str = num.toString(num);
+        document.write(str);
+        document.write(typeof str);
+        document.write(typeof num);
+        console.log(parseInt('120px'));
+        console.log(parseInt('rem12'));
+        console.log(parseInt('2.454'));
+        console.log(parseFloat('11.3422'));
+        console.log(parseFloat("3.1415926"));
+        var str1 = "123";
+        var str2 = Number(str1);
+        console.log(typeof(str2));
+        console.log(typeof str1);
+
+        console.log('12' - 0);
+        console.log("123" - "120");
+        console.log("123"*1);
+
+        var obj = {
+            name: "pink先生",
+            age: 18,
+            sex: "男"
+        }
+        console.log(obj.name);
+        console.log(obj.age);
+        console.log(obj.sex);
+
+        console.log(obj.name);
+        console.log(obj.age);
+        console.log(obj.sex);
+
+        console.log(obj['name']);
+        console.log(obj['age']);
+        console.log(obj['sex']);
+
+        for(var k in obj){
+            console.log(k);
+            console.log(obj[k]);
+        }
+
+        
+        
+
+    </script>
+
+    
+</body>
+</html>
